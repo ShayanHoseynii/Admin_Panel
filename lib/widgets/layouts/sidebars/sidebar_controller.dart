@@ -3,11 +3,17 @@ import 'package:admin_panel/utils/device/device_utility.dart';
 import 'package:get/get.dart';
 
 class SidebarController extends GetxController {
-  final activeItem = TRoutes.dashboard.obs;
+
   final hoverItem = ''.obs;
+  final activeItem = TRoutes.dashboard.obs;
+
+   @override
+   void onInit() {
+    super.onInit();
+    activeItem.value = Get.currentRoute;
+   }
 
   void changeActiveItem(String route) => activeItem.value = route;
-
   void changeHoverItem(String route) {
     if (!isActive(route)) hoverItem.value = route;
   }
