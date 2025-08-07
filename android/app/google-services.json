@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471522883420",
+    "project_id": "admin-dashboard-2ea77",
+    "storage_bucket": "admin-dashboard-2ea77.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471522883420:android:a113cc2a3c22bccb123399",
+        "android_client_info": {
+          "package_name": "com.example.admin_panel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgzj8MtnZrOjaTEyMoVoCVwdYW4sHUG_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
